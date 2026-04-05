@@ -1,0 +1,18 @@
+[quoting]
+spread_ticks = 1                # ticks from midpoint (1 tick = 1 cent)
+min_size_multiplier = 2.0       # quote min_incentive_size * this
+max_position_per_market = 1000  # contracts
+max_total_exposure_usd = 5000
+
+[risk]
+daily_loss_limit_usd = 500
+circuit_cooldown_sec = 10
+inventory_half_life = 500       # contracts until max skew
+
+[feeds]
+poll_interval_pre = 5.0         # seconds
+poll_interval_live = 1.0
+
+[markets]
+min_reward_usd = 500            # skip pools smaller than this
+sports = ["soccer", "basketball", "esports_cs2"]
