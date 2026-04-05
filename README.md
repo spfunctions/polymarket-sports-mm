@@ -30,6 +30,12 @@ Two-sided quoting (bid + ask) scores **3x** vs single-sided. The bot always quot
 ## Install
 
 ```bash
+pip install sfmm
+```
+
+Or from source:
+
+```bash
 git clone https://github.com/spfunctions/polymarket-sports-mm.git
 cd polymarket-sports-mm
 pip install -e .
